@@ -104,6 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1432126759171127977}
+  - component: {fileID: 1609929044546599788}
   m_Layer: 0
   m_Name: Wizard
   m_TagString: Untagged
@@ -120,8 +121,8 @@ Transform:
   m_GameObject: {fileID: 1771109958977953811}
   m_LocalRotation: {x: -0, y: 0.86098206, z: -0, w: 0.50863534}
   m_LocalPosition: {x: -3.0822, y: 1.37, z: 21.558}
-  m_LocalScale: {x: 0.63318855, y: 0.63318855, z: 0.63318855}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8029701402275228215}
   - {fileID: 2665704631237748087}
@@ -131,6 +132,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 118.854, z: 0}
+--- !u!136 &1609929044546599788
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771109958977953811}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.107126
+  m_Height: 4.8164845
+  m_Direction: 1
+  m_Center: {x: 0.02036643, y: -0.24983454, z: 5.492856e-10}
 --- !u!1 &2975748144331601536
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2681316451340405269}
   - component: {fileID: 1340428431367685552}
   - component: {fileID: 3854764379426894202}
+  - component: {fileID: 1340597332139011351}
   m_Layer: 0
   m_Name: Battleaxe
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3350154444619518127}
   m_LocalRotation: {x: -0.6166844, y: -0, z: -0, w: 0.7872106}
-  m_LocalPosition: {x: 1.08, y: 0.711, z: -14.716}
-  m_LocalScale: {x: 38.9905, y: 42.32669, z: 33.1954}
+  m_LocalPosition: {x: 1.08, y: 0.48106, z: -14.742}
+  m_LocalScale: {x: 134.08905, y: 145.56227, z: 114.15959}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,3 +85,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1340597332139011351
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3350154444619518127}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3390558720134950976, guid: 85d1a3a504776b245936b8c35ff96282, type: 3}
