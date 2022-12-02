@@ -105,9 +105,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1432126759171127977}
   - component: {fileID: 1609929044546599788}
+  - component: {fileID: 7129102817557086846}
   m_Layer: 0
   m_Name: Wizard
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,6 +147,26 @@ CapsuleCollider:
   m_Height: 4.8164845
   m_Direction: 1
   m_Center: {x: 0.02036643, y: -0.24983454, z: 5.492856e-10}
+--- !u!95 &7129102817557086846
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771109958977953811}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 302e4cd4860fef24f98cd3e8710ce259, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2975748144331601536
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6748578463405961871}
   - component: {fileID: 819060800656952023}
+  - component: {fileID: 7793124932094994357}
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
@@ -457,6 +479,26 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00007195049, y: 0.013730387, z: 0.0003892621}
     m_Extent: {x: 0.006482427, y: 0.007540102, z: 0.0064583835}
   m_DirtyAABB: 0
+--- !u!95 &7793124932094994357
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5292607993360886084}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5440613716026937575
 GameObject:
   m_ObjectHideFlags: 0

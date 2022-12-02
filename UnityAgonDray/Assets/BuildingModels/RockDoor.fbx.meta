@@ -2,7 +2,10 @@ fileFormatVersion: 2
 guid: f7cffc3fbf5b9ce419db5657889c0695
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -220060137062256044
+    second: rockDoor|DoorOpenD
   externalObjects: {}
   materials:
     materialImportMode: 2
