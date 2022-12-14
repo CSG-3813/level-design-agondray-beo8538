@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        UnlockMouse();
+
         currentHealth = maxHealth;
     }
 
@@ -23,9 +25,21 @@ public class Player : MonoBehaviour
         }
     }
 
+    void UnlockMouse()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+    }
+
+    void Healing(int health)
+    {
+        currentHealth += health;
         healthBar.SetHealth(currentHealth);
     }
 }

@@ -67,9 +67,9 @@ public class Enemies : MonoBehaviour
         }
         if(navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
         {
-            if(waitTime <= 0 && !seePlayer && Vector3.Distance(transform.position, GameObject.FindGameObjectsWithTag("player").transform.position) >= 6f){
+            //if(waitTime <= 0 && !seePlayer && Vector3.Distance(transform.position, GameObject.FindGameObjectsWithTag("player").transform.position) >= 6f){
 
-            }
+            //}
         }
     }
 
