@@ -4923,6 +4923,7 @@ GameObject:
   - component: {fileID: 8970766974142125858}
   - component: {fileID: 6600700634341368808}
   - component: {fileID: 3876651289614353155}
+  - component: {fileID: 4313559257631354653}
   m_Layer: 0
   m_Name: FireCauldron
   m_TagString: Untagged
@@ -5093,3 +5094,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!64 &4313559257631354653
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4655202702034420285}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2534964839176971238, guid: 31202698cc4a196418cabbea4a0892fc, type: 3}
